@@ -7,9 +7,10 @@ export default function Counter() {
     return(
         <View style={styles.counterContainer}>
             <Text style={styles.counterText}>You clicked the button {count} times.</Text>
-            <Button title="+" onPress={() => setCount(count + 1)}/>
+            <Button title="+ 🐥" onPress={() => setCount(count + 1)}/>
             <Button title="Reset" onPress={() => setCount(0)}/>
-            <Button title="-" onPress={() => setCount(Math.max(count - 1, 0))}/>
+            <Button title="- 🐥" onPress={() => setCount(Math.max(count - 1, 0))}/>
+            <Button title="Ok, that's enough" onPress={() => setCount(count + 404)}/>
         </View>
     )
 }
@@ -27,6 +28,6 @@ const styles = StyleSheet.create({
     counterText: {
         fontSize: 30,
         textAlign: "center"
-    }
-})
+    },
+    })
 

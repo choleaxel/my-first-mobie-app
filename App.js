@@ -20,4 +20,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+//   scrollView: {
+//     backgroundColor: '#cb828d',
+//     marginHorizontal: 20,
+// }
 });
+
+
