@@ -10,7 +10,7 @@ export default function Counter() {
             <Button title="+ 🐥" onPress={() => setCount(count + 1)}/>
             <Button title="Reset" onPress={() => setCount(0)}/>
             <Button title="- 🐥" onPress={() => setCount(Math.max(count - 1, 0))}/>
-            <Button title="Ok, that's enough" onPress={() => setCount(count + 404)}/>
+            <Button title="Ok, that's enough" onPress={() => setCount(count + 666)}/>
         </View>
     )
 }
